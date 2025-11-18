@@ -18,7 +18,14 @@ while True:
         altura=float(input("ingrese la medida de la altura: "))
         instancia=Triangulo(base,altura)
         area=instancia.area()
-        print(area)
-
+        print("el area del triangulo es: ",area)
+        
+    elif opcion==2:
+        radio=float(input("Ingrese la medida del radio: "))
+        instancia=Circulo(radio)
+        area=instancia.area()
+        print("El area del circulo es: ",area)
+        
+        
 
 
