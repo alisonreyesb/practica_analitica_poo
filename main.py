@@ -26,6 +26,13 @@ while True:
         area=instancia.area()
         print("El area del circulo es: ",area)
         
+    elif opcion==3:
+        base=float(input("ingrese la medida del ancho:" ))
+        altura=float(input("ingrese la medida de la altura: " ))
+        instancia=Rectangulo(base,altura)
+        area=instancia.area()
+        print("El area del rectangulo es: ", area)
+        
         
 
 
